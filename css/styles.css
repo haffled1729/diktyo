@@ -81,13 +81,9 @@ span{
     padding-top: 20px;
 }
 
-#home-ulist
-{
-    padding-top: 30px;
-}
-
 .home-list
 {
+    padding-top: 30px;
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
     color:#00c4cc;
