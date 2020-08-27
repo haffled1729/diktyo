@@ -195,7 +195,9 @@ span{
   width:50%;
   text-align: center;
   margin:0 auto;
+  color: white;
 }
+
 footer {
   background-color: rgb(26, 26, 78);
   background-image:linear-gradient(rgba(10, 0, 10, 0.900),rgba(20, 10, 20, 0.801)),url("images/contact_bg.jpg");
