@@ -44,6 +44,15 @@ span{
     background-size: cover;
     }
 
+@media(max-width:700px){
+    .bg-image {
+    background-image: url("images/bg3.jpg");
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    }
+}
+
     .all-nav {
         height: 100px; /* Whatever you want. */
 
