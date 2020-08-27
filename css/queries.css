@@ -1,0 +1,91 @@
+@media only screen and (max-width:480px){
+
+
+    #btn{
+        text-align:center;
+        padding-top: 30px;
+        padding-left: 27%;
+    }
+    .mail_link{
+        text-align:center;
+        border:100%;
+        font-weight:300;
+        text-decoration: none;
+        border-radius:300px;
+        color:white;
+        background-color: rgb(19, 109, 182);
+        padding:10px 30px;
+        text-align:center;
+
+    }
+
+    footer {
+        /*background-color: rgb(26, 26, 78);*/
+        background-image:linear-gradient(rgba(43, 39, 39, 0.685),rgba(43, 39, 39, 0.685)),url("contact_bg.jpg");
+        background-position: center;
+        background-size: cover;
+        padding: 50px;
+        font-size: 22px;
+        font-family:"Lato",sans-serif,serif;
+        height:65%;
+    }
+
+
+    footer p {
+        color: rgb(255, 255, 255);
+        font-size:140%;
+        text-align: center;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media only screen and (min-width:481px) and (max-width:767px){
+
+
+
+    #btn{
+        text-align:center;
+        padding-left:37%;
+        padding-top: 30px;
+    }
+
+    footer p {
+        color: rgb(255, 255, 255);
+        font-size:180%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .footer-nav {
+        list-style: none;
+        text-align: center;
+        padding-top:3px;
+        padding-right: 4%;
+
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+
+
+
+    #btn{
+        text-align:center;
+        padding-left:41%;
+        padding-top: 30px;
+
+}
+}
+
+
+@media only screen and (min-width:1024px) and (max-width:1200px){
+
+
+#btn{
+    text-align:center;
+    padding-left:41%;
+}
+
+}

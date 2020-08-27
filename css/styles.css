@@ -1,0 +1,182 @@
+/* Component styling */
+
+body{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+span{
+  color: white;
+}
+
+/* Main page styling */
+.responsive
+{
+    height:auto;
+
+    max-width: 100%;
+}
+
+/* Navigation bar styling */
+.navbar{
+  z-index:1;
+  background-color:#232728;
+  width:100%;
+}
+
+.navigation-text {
+  padding-right: 40px;
+}
+
+
+.container-fluid{
+  padding:0;
+  margin:0;
+}
+
+
+
+  .bg-image {
+    background-image: url("images/bg2.jpg");
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    }
+
+    .all-nav {
+        height: 100px; /* Whatever you want. */
+
+    }
+
+#home
+{
+  background-image:linear-gradient(rgba(10, 0, 10, 0.98),rgba(20, 10, 20, 0.91)),url("images/work.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: #f6f5f5;
+  padding: 100px 50px 100px 100px; /*Changed*/
+  margin: 0;
+  
+}
+
+.Home-header{
+  color: #00c4cc;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
+}
+
+.col-sm{
+  font-family: "Lato","Raleway",Verdana;
+}
+.names{
+  color: #00c4cc;
+}
+.Home-header2
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    width:70%;
+    padding-top: 20px;
+}
+
+#home-ulist
+{
+    padding-top: 30px;
+}
+
+.home-list
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    color:#00c4cc;
+    line-height: 2;
+}
+
+
+#hiring{
+  background-image:linear-gradient(rgba(10, 0, 10, 0.98),rgba(20, 10, 20, 0.91)),url("images/hire.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background-color: #232728;
+  color: #00c4cc;
+  padding-top: 5%;
+  padding-bottom: 8%;
+  height: 100%;
+}
+.hire-title{
+  margin-top: 0;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  font-size: 3em;
+  color: #fff;
+}
+.hire-body{
+  font-weight: 200;
+  font-size: 22px;
+}
+
+#about
+{
+    background-image:linear-gradient(rgba(10, 0, 10, 0.900),rgba(20, 10, 20, 0.801)),url("images/team.jpg");
+    font-size: 200%;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    height: 100%;
+    border-radius: 0;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.contact-details{
+  width:50%;
+  text-align: center;
+  margin:0 auto;
+}
+footer {
+  background-color: rgb(26, 26, 78);
+  background-image:linear-gradient(rgba(10, 0, 10, 0.900),rgba(20, 10, 20, 0.801)),url("images/contact_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+  font-size: 22px;
+  font-family:"Lato",sans-serif,serif;
+  height:50%;
+  text-align: center;
+}
+footer p {
+    color: white;
+    font-size:180%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mail_link{
+    text-align:center;
+    border:100%;
+    font-weight:300;
+    text-decoration: none;
+    border-radius:300px;
+    color:#000;
+    background-color: #00c4cc;
+    padding:10px 30px;
+}
+.mail_link:hover{
+    background-color: #318fb5;
+    color: #f6f5f5;
+    text-decoration: none;
+}
+
+.phone-numbers{
+   font-size:80%;
+   color:rgb(158, 156, 156);
+   padding-left:2%;
+}
