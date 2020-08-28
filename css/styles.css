@@ -64,12 +64,13 @@ span{
   background-size: cover;
   background-position: center;
   color: #f6f5f5;
-  padding: 100px 50px 100px 50px; /*Changed*/
+  padding: 100px 20px 100px 20px; /*Changed*/
   margin: 0;
   
 }
 
 .Home-header{
+  padding-top: 2rem;
   color: #00c4cc;
   font-family: 'Raleway', sans-serif;
   font-size: 3em;
@@ -143,6 +144,8 @@ span{
   color: #00c4cc;
   padding-top: 5%;
   padding-bottom: 8%;
+  padding-right: 20px;
+  padding-left: 20px;
   height: 100%;
 }
 
